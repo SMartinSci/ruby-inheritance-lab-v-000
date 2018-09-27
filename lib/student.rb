@@ -5,6 +5,11 @@ class Student < User
   end
 
 
-  def learn 
-    @knowledge << validates_numericality_ofend
+  def learn(value)
+    @knowledge << value 
+  end
+  
+  def knowledge
+    @knowledge
+  end
 end
