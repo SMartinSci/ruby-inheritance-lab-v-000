@@ -4,4 +4,7 @@ class Student < User
     @knowledge = []
   end
 
+
+  def learn 
+    @knowledge << validates_numericality_ofend
 end
